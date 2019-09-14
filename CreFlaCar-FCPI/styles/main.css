@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid #eee;*/
+
+}
+
+body{
+
+	font-family: Exo;
+    text-align: center;
+    background: #222;
+    color: white;
+
+}
+
+.wrapper{
+
+    width: 95%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: auto;
+    margin: 1% auto;
+
+
+}
+
+.header {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: center;
+    grid-column-gap: 10px
+    /*justify-content: space-between;
+    /*background: gray;*/
+}
+
+.header h1{
+
+    justify-self: start;
+
+}
+
+.header h4{
+
+    justify-self: end;
+
+}
+
+
+.intro{
+
+    grid-column: 1/ -1;
+    justify-items: center;
+
+    /*background: pink;*/
+
+}
+
+.dynamic{
+
+    display: grid;
+    grid-gap: 30px;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-rows: 50px auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  /*  background: lightgreen;*/
+
+}
+
+/*.character{
+
+    grid-column: 1/2;
+
+}
+
+.job{
+
+    grid-column: 2/-1;
+
+}
+
+.goal{
+
+    grid-column: 1/-1;
+
+
+}
+
+.challenge{
+
+    grid-column: 1/2;
+
+}
+
+.thing{
+
+    grid-column: 2/-1;
+
+
+}*/
+
+.prompt{
+
+    display: grid;
+    grid-template-rows: 80px auto;
+/*    grid-gap: 10px;
+    flex-flow: column;*/
+    /*justify-content: space-around;*/
+    border: 1px solid #eee;
+    /*background: lightblue;*/
+
+
+}
+
+.prompt-intro{
+
+    /*background: pink;*/
+    grid-column: 1/-1;
+
+}
+
+.button{
+
+	cursor: pointer;
+
+}
+
+h2{
+
+    margin-bottom: 10px;
+
+}
+
+h3{
+
+    margin: 10px;
+    font-weight: 300;
+
+}
+
+h4{
+
+    font-weight: 300;
+    
+
+}
+
+
+
+p{
+   /* color: grey;*/
+	font-size: 2.5rem;
+    font-weight: 300;
+    margin: 10px;
+
+}
+
+
+
+
